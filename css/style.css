@@ -2,6 +2,10 @@
     color: #fff;
 }
 
+.cl-black {
+    color: #000 !important;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -13,3 +17,24 @@
 .bold-text {
     font-weight: 700;
 }
+
+.works-section table td {
+    color: #007BFF;
+}
+
+.works-section {
+    overflow: auto;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    color: #6C757D;
+    height: 51px;
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        height: 71px;
+    }
+}
+
