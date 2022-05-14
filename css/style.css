@@ -1,0 +1,15 @@
+.cl-white{
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E9ECEF;
+    height: 340px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
