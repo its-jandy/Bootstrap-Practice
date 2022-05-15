@@ -27,14 +27,22 @@
 }
 
 .footer {
+    text-align: center;
     background-color: #F5F5F5;
     color: #6C757D;
     height: 51px;
 }
 
+.footer p {
+    line-height: 51px;
+}
+
 @media screen and (max-width: 576px) {
     .footer {
         height: 71px;
+    }
+    .footer p {
+        line-height: 71px;
     }
 }
 
